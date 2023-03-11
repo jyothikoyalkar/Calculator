@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./calculator.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <h2>Calculator</h2>
+        <div id="container" class="container-fluid">
+            <div id="display-bar"></div>
+            <div id="buttons-container">
+                <div>
+                    <button type="button" value="C" onclick="clearButton()">C</button>
+                    <button type="button" value="%" onclick="display(this.value)">%</button>
+                    <button type="button" value="/" onclick="display(this.value)">/</button>
+                    <button type="button" value="x" onclick="backSpace()">x</span>
+                </div>
+                <div>
+                    <button type="button" value="7" onclick="display(this.value)">7</button>
+                    <button type="button" value="8" onclick="display(this.value)">8</button>
+                    <button type="button" value="9" onclick="display(this.value)">9</button>
+                    <button type="button" value="*" onclick="display(this.value)">*</button>
+                </div>
+                <div>
+                    <button type="button" value="4" onclick="display(this.value)">4</button>
+                    <button type="button" value="5" onclick="display(this.value)">5</button>
+                    <button type="button" value="6" onclick="display(this.value)">6</button>
+                    <button type="button" value="-" onclick="display(this.value)">-</button>
+                </div>
+                <div>
+                    <button type="button" value="1" onclick="display(this.value)">1</button>
+                    <button type="button" value="2" onclick="display(this.value)">2</button>
+                    <button type="button" value="3" onclick="display(this.value)">3</button>
+                    <button type="button" value="+" onclick="display(this.value)">+</button>
+                </div>
+                <div>
+                    <button type="button" value="0" onclick="display(this.value)">0</button>
+                    <button type="button" value="00" onclick="display(this.value)">00</button>
+                    <button type="button" value="." onclick="display(this.value)">.</button>
+                    <button type="button" value="=" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="calculator.js"></script>
+        
+    </body>
+    
+
+</html>

@@ -1,0 +1,27 @@
+#container{
+    border: 2px solid;
+    border-radius: 5px;
+    height: 360px;
+    width: 290px;
+    margin: 2% 1%;
+    background-color: rgba(244, 252, 153, 0.942);
+}
+#display-bar{
+    border: 1px solid;
+    border-radius: 5px;
+    height: 55px;
+    width: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+}
+#buttons-container{
+    padding: 2px 4px;
+}
+button{
+    height: 55px;
+    width: 60px;
+    background-color: rgba(29, 157, 249, 0.83);
+}
